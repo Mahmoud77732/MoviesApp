@@ -1,4 +1,4 @@
-# MoviesApp
+# Movies_App
 - Movies app with angular11 using api https://www.themoviedb.org/
 - "moviesapp" folder includes angular app without node_modules
 - To download node_modules folder to run the app on VSC for ex open cmd on movies app path
