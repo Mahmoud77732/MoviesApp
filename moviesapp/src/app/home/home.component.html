@@ -13,7 +13,8 @@
   </div>
   <div *ngFor="let item of trendingMovies" class="col-md-2 my-3">
     <div>
-      <img class="w-100 mb-2" src="https://image.tmdb.org/t/p/original/{{item.poster_path}}" alt="">
+      <!-- <img class="w-100 mb-2" src="https://image.tmdb.org/t/p/original/{{item.poster_path}}" alt=""> -->
+      <img class="w-100 mb-2" src="../../assets/images/img7.jpg" alt="">
       <h5>{{item.title}}</h5>
       <button class="btn btn-primary" routerLink="/details/{{item.media_type}}/{{item.id}}">see more</button> <!-- '/' take the deep link "details/.." only and delete what is before it -->
     </div>
@@ -33,7 +34,8 @@
   </div>
   <div *ngFor="let item of trendingTvShows" class="col-md-2">
     <div>
-      <img class="w-100 mb-2" src="https://image.tmdb.org/t/p/original/{{item.poster_path}}" alt="">
+      <!-- <img class="w-100 mb-2" src="https://image.tmdb.org/t/p/original/{{item.poster_path}}" alt=""> -->
+      <img class="w-100 mb-2" src="../../assets/images/img7.jpg" alt="">
       <h5>{{item.name}}</h5>
       <button class="btn btn-primary" routerLink="/details/{{item.media_type}}/{{item.id}}">see more</button> <!-- '/' take the deep link "details/.." only and delete what is before it -->
     </div>
